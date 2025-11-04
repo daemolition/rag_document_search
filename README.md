@@ -3,7 +3,7 @@
 ---
 
 A simple document search system using RAG and ReAct Agent to retrieve documents.
-Documents can be either from a directory, *.pdf oder *.txt files or urls.
+Documents can be either from a directory, *.pdf, *.txt files or urls.
 
 The documents will be saved in a vectorstore (FAISS) and be retrieved with a simple similiratiy search.
 The Project is uses a local mistral model with a langchain wrapper.
@@ -16,7 +16,6 @@ The project showcases the use of modern agentic ai patterns using langgraph to d
 
 The UI is simple using streamlit.
 The document retrieve gives the answer and the documents used.
-
 
 ## How to use
 
